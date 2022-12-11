@@ -89,7 +89,7 @@ def show_results(img, xyxy, conf, landmarks, class_num, level):
       ksize[1] += 1
     
     # ROI = cv2.blur(ROI, ksize)
-    ROI = cv2.GaussianBlur(ROI, ksize, 0)
+    ROI = cv2.GaussianBlur(ROI, tuple(ksize), 0)
     mask_ROI = copy.deepcopy(img)
     mask_ROI[y1:y2, x1:x2] = ROI
 
