@@ -1,5 +1,5 @@
 # CS639_Photo_Video_Anonymization
-Final Projecgt for CS639 UW-Madison
+Final Project for CS639 UW-Madison
 
 ## Instructions for Face Blur
 
