@@ -40,4 +40,4 @@ To ensure that the latest run results can be found, please click Refresh after e
 
 #### Other features 
 The user can change the size of the resulting image by changing the number after --img.
-By adding --show-img to the run command, the program is expected to display the result image, but now there are some bugs.
+By adding --vieww-img to the run command, the program is expected to display the result image, but now there are some bugs.
