@@ -3,6 +3,9 @@ Final Projecgt for CS639 UW-Madison
 
 ## Instructions for Face Blur
 
+### Result
+![image](https://user-images.githubusercontent.com/94937314/206935040-1c215770-14f3-46b9-a7d9-14082d16b7e8.png)
+
 ### demo_face_blur.ipynb is a demo that illustrates how to use face blur in Goolge Colab.
 
 #### Please write the path of the target image after --source. By default we will use the data folder to store the target image. 
