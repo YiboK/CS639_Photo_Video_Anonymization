@@ -245,11 +245,11 @@ def detect(
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', nargs='+', type=str, default='plate_model.pt',
+    parser.add_argument('--weights', nargs='+', type=str, default='plate_blur/plate_model.pt',
                         help='model.pt path(s)')
     parser.add_argument('--source', type=str, default='0', help='source')  # file/folder, 0 for webcam
     parser.add_argument('--img-size', type=int, default=640, help='inference size (pixels)')
-    parser.add_argument('--project', default=ROOT / 'runs/blur', help='save results to project/name')
+    parser.add_argument('--project', default=ROOT / '../runs/plate_blur', help='save results to project/name')
     parser.add_argument('--name', default='exp', help='save results to project/name')
     parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
     parser.add_argument('--save-img', action='store_true', help='save results')
