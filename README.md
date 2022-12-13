@@ -7,7 +7,7 @@ Final Project for CS639 UW-Madison
 
 ## Demo.ipynb is a demo that illustrates how to use face and plate blur in Goolge Colab.
 
-### Please write the path of the target image after --source. By default we will use the data folder to store the target image. 
+#### Please write the path of the target image after --source. By default we will use the data folder to store the target image. 
 
 In order to upload the image to be blurred, please manually upload it yourself in google colab. 
 
@@ -28,10 +28,10 @@ How to upload the image to data folder:
 You can upload the images elsewhere, as long as the path is correct.
 
 
-### Change the number after --blur-level to change the blur level of the image. There are four levels in total from 1-4.
+#### Change the number after --blur-level to change the blur level of the image. There are four levels in total from 1-4.
 
 
-### If you are using the demo, the resulting images are stored in the /CS639_Photo_Video_Anonymization/runs/plate_blur/exp
+#### If you are using the demo, the resulting images are stored in the /CS639_Photo_Video_Anonymization/runs/plate_blur/exp
 
 --save-img is used to set the program to save the resulting images. 
 
@@ -44,7 +44,7 @@ Each run creates a new exp folder but with different numbers. The largest number
 ![InkedScreenshot 2022-12-12 225454](https://user-images.githubusercontent.com/94937314/207230036-dfabc229-e67f-49d9-91c0-3546aeb23da4.jpg)
 
 
-### Other features 
+#### Other features 
 
 The user can change the size of the resulting image by changing the number after --img.
 By adding --vieww-img to the run command, the program is expected to display the result image, but now there are some bugs.
